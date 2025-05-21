@@ -1,0 +1,53 @@
+# ──────────────── 全域設定 ────────────────
+# 作業系統
+.DS_Store
+Thumbs.db
+
+# IDE / 編輯器
+.vscode/
+.idea/
+
+# 日誌
+*.log
+
+# 環境設定檔（如有用到 .env）
+.env
+
+# ──────────────── Flask 後端 ────────────────
+# Python byte code
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虛擬環境
+backend/venv/
+backend/.env               
+
+# Flask-Migrate / Alembic
+migrations/
+
+# ──────────────── Vue 前端 ────────────────
+# node_modules
+frontend/node_modules/
+
+# Vite 打包輸出
+frontend/dist/
+frontend/.temp/
+
+# lock 檔
+frontend/package-lock.json
+frontend/yarn.lock
+
+# ──────────────── 其他可選設定 ────────────────
+# 視情況忽略打包過程中產生的檔案
+dist/
+build/
+
+# IDE 
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Mac 系統快取
+.pnpm-debug.log*
